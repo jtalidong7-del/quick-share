@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Purple Love Page</title>
+
+        <style>
+            body {
+                  margin: 0;
+                        font-family: Arial, sans-serif;
+                              background: linear-gradient(135deg, #6a0dad, #b266ff);
+                                    color: white;
+                                          display: flex;
+                                                justify-content: center;
+                                                      align-items: center;
+                                                            height: 100vh;
+                                                                  overflow: hidden;
+                                                                      }
+
+                                                                          .container {
+                                                                                text-align: center;
+                                                                                      animation: float 3s ease-in-out infinite;
+                                                                                          }
+
+                                                                                              h1 {
+                                                                                                    font-size: 40px;
+                                                                                                          margin-bottom: 20px;
+                                                                                                                text-shadow: 0 0 10px #fff, 0 0 20px #d9a3ff, 0 0 30px #c77dff;
+                                                                                                                      animation: glow 2s infinite alternate;
+                                                                                                                          }
+
+                                                                                                                              .links a {
+                                                                                                                                    display: block;
+                                                                                                                                          color: white;
+                                                                                                                                                font-size: 18px;
+                                                                                                                                                      text-decoration: none;
+                                                                                                                                                            border: 2px solid white;
+                                                                                                                                                                  padding: 10px 20px;
+                                                                                                                                                                        border-radius: 10px;
+                                                                                                                                                                              margin: 10px auto;
+                                                                                                                                                                                    width: fit-content;
+                                                                                                                                                                                          transition: 0.3s;
+                                                                                                                                                                                              }
+
+                                                                                                                                                                                                  .links a:hover {
+                                                                                                                                                                                                        background: white;
+                                                                                                                                                                                                              color: purple;
+                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                      /* Floating animation */
+                                                                                                                                                                                                                          @keyframes float {
+                                                                                                                                                                                                                                0% { transform: translateY(0px); }
+                                                                                                                                                                                                                                      50% { transform: translateY(-15px); }
+                                                                                                                                                                                                                                            100% { transform: translateY(0px); }
+                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                    /* Glow animation */
+                                                                                                                                                                                                                                                        @keyframes glow {
+                                                                                                                                                                                                                                                              from { text-shadow: 0 0 5px #fff, 0 0 10px #c77dff; }
+                                                                                                                                                                                                                                                                    to { text-shadow: 0 0 20px #fff, 0 0 40px #d9a3ff; }
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                          </style>
+                                                                                                                                                                                                                                                                          </head>
+                                                                                                                                                                                                                                                                          <body>
+
+                                                                                                                                                                                                                                                                            <div class="container">
+                                                                                                                                                                                                                                                                                <h1>iloveyousomuch 💜</h1>
+                                                                                                                                                                                                                                                                                    <p>Tap the memories below ✨</p>
+
+                                                                                                                                                                                                                                                                                        <div class="links">
+                                                                                                                                                                                                                                                                                              <a href="https://photos.app.goo.gl/rAWKZvjUUYYZuA2f7" target="_blank">
+                                                                                                                                                                                                                                                                                                      Memory 1 📸
+                                                                                                                                                                                                                                                                                                            </a>
+
+                                                                                                                                                                                                                                                                                                                  <a href="https://photos.app.goo.gl/b7cfBjtMKFYe2e2L8" target="_blank">
+                                                                                                                                                                                                                                                                                                                          Memory 2 💕
+                                                                                                                                                                                                                                                                                                                                </a>
+                                                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                      </div>
+
+                                                                                                                                                                                                                                                                                                                                      </body>
+                                                                                                                                                                                                                                                                                                                                      </html>
